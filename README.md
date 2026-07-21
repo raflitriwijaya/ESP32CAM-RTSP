@@ -223,7 +223,7 @@ engineer directing every step:
   support. This project exists because his prototype was well-designed enough to
   be worth hardening.
 
-- **Production Hardening:** `[Your Name]` (`[@your_github]`) —
+- **Production Hardening:** Rafli Triwijaya ([Rafli Triwijaya](https://github.com/raflitriwijaya)) —
   systematic audit, architecture redesign, hardening implementation, and
   integration test suite.
 
