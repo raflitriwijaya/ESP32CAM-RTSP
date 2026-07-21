@@ -35,7 +35,7 @@
 #define DEFAULT_LENC true
 #define DEFAULT_HORIZONTAL_MIRROR false
 #define DEFAULT_VERTICAL_MIRROR false
-#define DEFAULT_DCW true
+#define DEFAULT_DCW false
 #define DEFAULT_COLORBAR false
 
 #define DEFAULT_LED_INTENSITY 0

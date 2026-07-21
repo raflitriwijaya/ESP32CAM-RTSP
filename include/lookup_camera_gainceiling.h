@@ -18,7 +18,7 @@ constexpr const camera_gainceiling_entry_t camera_gain_ceilings[] = {
     {"64X", GAINCEILING_64X},
     {"128X", GAINCEILING_128X}};
 
-const gainceiling_t lookup_camera_gainceiling(const char *name)
+inline gainceiling_t lookup_camera_gainceiling(const char *name)
 {
     // Lookup table for the frame name to framesize_t
     for (const auto &entry : camera_gain_ceilings)

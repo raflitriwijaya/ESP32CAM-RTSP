@@ -17,7 +17,7 @@ constexpr const camera_effect_entry_t camera_effects[] = {
     {"Blue tint", 5},
     {"Sepia", 6}};
 
-const int lookup_camera_effect(const char *name)
+inline int lookup_camera_effect(const char *name)
 {
     // Lookup table for the frame name to framesize_t
     for (const auto &entry : camera_effects)

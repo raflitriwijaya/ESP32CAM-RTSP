@@ -15,7 +15,7 @@ constexpr const camera_wb_mode_entry_t camera_wb_modes[] = {
     {"Office", 3},
     {"Home", 4}};
 
-const int lookup_camera_wb_mode(const char *name)
+inline int lookup_camera_wb_mode(const char *name)
 {
     // Lookup table for the frame name to framesize_t
     for (const auto &entry : camera_wb_modes)

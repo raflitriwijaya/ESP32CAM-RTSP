@@ -24,7 +24,7 @@ constexpr const frame_size_entry_t frame_sizes[] = {
     {"SXGA (1280x1024)", FRAMESIZE_SXGA},
     {"UXGA (1600x1200)", FRAMESIZE_UXGA}};
 
-const framesize_t lookup_frame_size(const char *pin)
+inline framesize_t lookup_frame_size(const char *pin)
 {
     // Lookup table for the frame name to framesize_t
     for (const auto &entry : frame_sizes)
